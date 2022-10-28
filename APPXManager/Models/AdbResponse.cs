@@ -1,4 +1,6 @@
-﻿namespace APPXManager.Models
+﻿using System;
+
+namespace APPXManager.Models
 {
     /// <summary>
     /// An Adb Communication Response

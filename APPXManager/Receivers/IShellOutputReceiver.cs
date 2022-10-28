@@ -1,7 +1,7 @@
 ﻿namespace APPXManager.Receivers
 {
     /// <summary>
-    ///
+    /// Shell Output Receiver
     /// </summary>
     public interface IShellOutputReceiver
     {

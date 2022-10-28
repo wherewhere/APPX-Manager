@@ -1,7 +1,9 @@
-﻿namespace APPXManager.Receivers
+﻿using System.Collections.Generic;
+
+namespace APPXManager.Receivers
 {
     /// <summary>
-    ///
+    /// Multi Line Receiver
     /// </summary>
     public abstract class MultiLineReceiver : IShellOutputReceiver
     {

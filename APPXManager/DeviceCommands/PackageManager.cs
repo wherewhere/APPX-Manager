@@ -2,6 +2,7 @@
 using APPXManager.Models;
 using APPXManager.Receivers;
 using System.Collections.ObjectModel;
+using System.Linq;
 
 namespace APPXManager.DeviceCommands
 {
@@ -22,7 +23,7 @@ namespace APPXManager.DeviceCommands
         /// <summary>
         /// Refreshes the packages.
         /// </summary>
-        public static ObservableCollection<PackageInfo> GetPackages(string? arg = null)
+        public static ObservableCollection<PackageInfo> GetPackages(string arg = null)
         {
             PackageManagerReceiver pmr = new PackageManagerReceiver();
             CommandHelper.ExecuteShellCommand($"{ListFull}{arg}", pmr);
